@@ -10,7 +10,7 @@ double Convolution::passValue(double sample) {
         return result;
     }
 
-    return NAN;
+    return 0;
 }
 
 double Convolution::convolve() {

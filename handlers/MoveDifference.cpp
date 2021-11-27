@@ -10,5 +10,5 @@ double MoveDifference::passValue(double sample) {
         return sample - first;
 
     }
-    return NAN;
+    return 0;
 }
